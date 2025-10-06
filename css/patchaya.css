@@ -1,29 +1,35 @@
-img{
+img {
     height: 250px;
     border-radius: 20px 20px 0px 0px;
 }
-.imgBox{
+
+.imgBox {
     height: 500px;
     background: #EEEEEE;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition:scale 0.4s;
-    color:#222831;
-    box-shadow:rgba(255, 255, 255, 0.2) 0px 7px 29px 0px; ;
+    transition: scale 0.4s;
+    color: #222831;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+    ;
 }
-.imgBox:hover{
-    scale:1.1;
+
+.imgBox:hover {
+    scale: 1.1;
 }
-body{
+
+body {
     background-color: #222831;
     font-family: 'Courier New', Courier, monospace;
-    color:white;
+    color: white;
 }
-.main{
-     display: flex;
-     flex-direction: column;
-     gap: 20%;
-     align-items: center;
+
+.main {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    align-items: center;
 }
