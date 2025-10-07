@@ -3,6 +3,7 @@ const ifmPatch = document.getElementById("patchaya")
 const ifmEmil = document.getElementById("emil")  
 const ifmAlex = document.getElementById("alexander")  
 const ifmHaroon = document.getElementById("haroon")   
+const mainPage = document.getElementById("main")
 
 function toggle(elementId){
     const element = document.getElementById(elementId);
@@ -11,6 +12,7 @@ function toggle(elementId){
     ifmEmil.style.display = "none";
     ifmAlex.style.display = "none";
     ifmHaroon.style.display = "none";
+    mainPage.style.display = "none";
     
     if(element.style.display === 'none'){
         element.style.display = "block";
