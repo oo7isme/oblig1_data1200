@@ -1,5 +1,36 @@
 body {
-margin: auto;
+background-color: whitesmoke;    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-family: Futura,Trebuchet MS, Arial, sans-serif;
+}
 
+#minigolf {
+height: 350px;
+border-radius: 25px;
+}
 
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8DFCA;
+    color: black;
+    padding: 3.5%;
+    padding: 1px 25px 1px 25px;
+    border-radius: 25px;
+     transition: scale 0.3s;
+    
+    
+}
+
+.box:hover {
+scale: 1.02;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
